@@ -1,8 +1,8 @@
 import win32com.client
 
-# # 1. Checking the connection to the CYBOS Plus API
-# instCpCybos = win32com.client.Dispatch("CpUtil.CpCybos")
-# print(instCpCybos.IsConnect)  # This prints 1 if the API is connected to the server. Otherwise, prints 0.
+# 1. Checking the connection to the CYBOS Plus API
+instCpCybos = win32com.client.Dispatch("CpUtil.CpCybos")
+print(instCpCybos.IsConnect)  # This prints 1 if the API is connected to the server. Otherwise, prints 0.
 #
 # # 2. Counting the number of companies went up to Korean stock market.
 # instCpStockCode = win32com.client.Dispatch("CpUtil.CpStockCode")
