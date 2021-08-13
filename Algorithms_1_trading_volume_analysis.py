@@ -43,4 +43,4 @@ if __name__ == "__main__":  # Run the code below only when it's ran by itself, n
             buyList.append(code)
             print(instCpStockCode.CodeToName(code))
         time.sleep(0.75)
-    print('시간:', start - time.time())
+    print('시간:', start - time.time())  # 1,274 seconds to finish this job (Date: 13/08/2021)
