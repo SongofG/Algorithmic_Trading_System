@@ -43,3 +43,4 @@ plt.plot(new_gs.index, new_gs["MA120"], label="MA120")  # Draw the MA120 line
 plt.legend(loc="best")  # Automatically locates the legends' explanations.
 plt.grid()  # Add grids to the plot.
 plt.show()
+
